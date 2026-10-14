@@ -1,0 +1,27 @@
+Single Starter CSS +/
+
+:root {
+--bg:#ffffff;
+--text: #222222;
+--muted: #666666;
+--accent: #2f5bd8;
+--Border: #ddddd;
+--radius: 6px; 
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+
+body {
+    font-family: system-ui, apple-system, "segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--bg);
+}
+
+img {
+    max-with:100%; 
+
+}
